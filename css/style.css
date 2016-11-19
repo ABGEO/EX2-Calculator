@@ -1,0 +1,72 @@
+body {
+	margin-left: 300px;
+	width: 1000px;
+	background: #999999;
+}
+
+.content {
+	margin-left: 180px;
+	border: 1px solid silver;
+	width: 600px;
+	padding: 1em;
+	box-shadow: 
+				0 1px 4px rgba(0, 0, 0, .3),
+				-23px 0 20px -23px rgba(0, 0, 0, .8), 
+				23px 0 20px -23px rgba(0, 0, 0, .8), 
+				0 0 40px rgba(0, 0, 0, .1) inset;
+   
+   border-radius: 20px;
+   background: #F4F4F4;
+}
+
+.glava {
+	margin-bottom: 10px;
+	padding: 2px;
+	background: red;
+	color: white;
+	border-radius: 10px;
+	width: fit-content;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.footer {
+	text-align: center;
+	border: 1px solid silver;
+	margin: 10 0 0 180;
+	width: 630px;
+	box-shadow: 
+				0 1px 4px rgba(0, 0, 0, .3),
+				-23px 0 20px -23px rgba(0, 0, 0, .8), 
+				23px 0 20px -23px rgba(0, 0, 0, .8), 
+				0 0 40px rgba(0, 0, 0, .1) inset;
+   background: #F4F4F4;
+	 border-radius: 10px;
+}
+
+input, select {
+	border:1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius:2px;
+	padding-right:30px;
+	transition: padding .25s;
+}
+
+input:focus {
+	outline: none;
+	background: #fff;
+	border:1px solid #555;
+	box-shadow: 0 0 3px #aaa;
+	padding-right:60px;
+}
+
+select:focus {
+	outline: none;
+	background: #fff;
+	border:1px solid #555;
+	box-shadow: 0 0 3px #aaa;
+	padding-right:60px;
+}
