@@ -17,6 +17,7 @@ body {
    
    border-radius: 20px;
    background: #F4F4F4;
+   	margin-bottom: 10px;
 }
 
 .glava {
@@ -36,15 +37,15 @@ h1 {
 .footer {
 	text-align: center;
 	border: 1px solid silver;
-	margin: 10 0 0 180;
+	margin-left: 180px;
 	width: 630px;
 	box-shadow: 
 				0 1px 4px rgba(0, 0, 0, .3),
 				-23px 0 20px -23px rgba(0, 0, 0, .8), 
 				23px 0 20px -23px rgba(0, 0, 0, .8), 
 				0 0 40px rgba(0, 0, 0, .1) inset;
-   background: #F4F4F4;
-	 border-radius: 10px;
+   	background: #F4F4F4;
+	border-radius: 10px;
 }
 
 input, select {
